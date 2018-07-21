@@ -8,14 +8,8 @@ export default class DataOut extends React.Component{
                 this.props.data.map((obj)=>{
                     return(
                         <li key={obj.id}>{obj.title}</li>
-                    )
-                })    
-           )
-       }
+                    )}))}
        else{
            return(
-               <p>lol</p>
-           )
-       }
-}
-}
+               <p></p>
+           )}}};

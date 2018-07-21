@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import AddInput from '../components/AddInput';
 import DataOut from '../components/DataOut';
-
+import '../styles/components/fridge.css'
 
 
 export default class Fridge extends Component {
@@ -41,7 +41,7 @@ export default class Fridge extends Component {
    }
     render(){
       return(
-        <div>
+        <div className="wrapper">
         <AddInput getData ={this.getData}/>
         <DataOut data={this.state.data}/>
         </div>

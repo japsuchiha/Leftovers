@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
 import Fridge from './pageComponents/Fridge';
 import Meal from './pageComponents/Meal'; 
 import Home from './pageComponents/Home';
