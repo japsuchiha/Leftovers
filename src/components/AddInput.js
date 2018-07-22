@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/components/fridge.css'
 export default class AddInput extends React.Component {
     constructor(props){
         super(props);
@@ -13,11 +14,11 @@ export default class AddInput extends React.Component {
     }
     render(){
         return(
-            <div>
-            <h1>Whats in your fridge!</h1>
+            <div className="stuff">
+            <h1 className="title is-4 inputTitle">Whats in your fridge!</h1>
             <form onSubmit={this.handleInput}>
-            <input className="fridge-input" type="text" placeholder="ingredients seperated by ," name="option"/>
-            <button className="button is-primary">Get Recipes!</button>
+            <input className="fridge-input input" type="text" placeholder="ingredients seperated by ," name="option"/>
+            <button className="button is-primary btn">Get Recipes!</button>
             </form>
             </div>
         )

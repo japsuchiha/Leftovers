@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import EnterCalorie from '../components/EnterCalorie'
 import MealData from '../components/MealData';
-
+import '../styles/components/meal.css'
 export default class Meal extends Component {
   constructor(props){
     super(props);
@@ -38,7 +38,7 @@ let header = new Headers({
 }
     render(){
       return(
-        <div>
+        <div className="my-container">
         <EnterCalorie getData={this.getData}/>
         <MealData data={this.state.data}/>
         </div>

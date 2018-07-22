@@ -1,3 +1,30 @@
-.wrapper{
-    height: 90vh;
+
+.stuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.inputTitle{
+    margin-bottom: 1rem !important;
+}
+.fridge-input{
+    width: 210px;
+    margin-right: 2rem;    
+}
+.card{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+img{
+    width: 100% !important;
+}
+
+@media(min-width:400px) and (max-width:780px){
+    .card{
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
 }

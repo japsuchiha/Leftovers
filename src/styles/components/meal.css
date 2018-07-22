@@ -1,0 +1,18 @@
+.container{
+    align-items: stretch !important;
+}
+
+.input{
+    width: 200px;
+}
+.calculate{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.height{
+    text-align: center;
+}
+.column{
+    text-align: center;
+}
