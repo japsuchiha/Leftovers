@@ -1,4 +1,4 @@
-.container{
+.meal-container{
     align-items: stretch !important;
 }
 
@@ -15,4 +15,13 @@
 }
 .column{
     text-align: center;
+}
+.ready{
+    margin-left: 2rem;
+}
+.more{
+    cursor: pointer;
+}
+.calorie{
+    margin: 0 auto;
 }

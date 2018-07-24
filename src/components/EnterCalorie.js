@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react';
+import '../styles/components/meal.css'
 export default class EnterCalorie extends Component{
     constructor(props){
         super(props);
@@ -40,7 +41,7 @@ export default class EnterCalorie extends Component{
 
         return(
             <div className="form-control">
-                <form onSubmit={this.handleChange} className="container">
+                <form onSubmit={this.handleChange} className="container meal-container">
                 <div className="columns">
                 <div className="column">
                 <label className="label">Age</label>
@@ -81,7 +82,7 @@ export default class EnterCalorie extends Component{
                 </div>
                 </div>
                 <button type="submit" className="calculate button is-primary">Get Meals</button>
-                {this.state.calorie && <input className="input" type="text" placeholder={`Calories : ${this.state.calorie}`} readOnly/>}
+                {this.state.calorie && <p className="tag calorie">{`Calories : ${this.state.calorie}`}</p>}
                 </form>
             </div>
         )
