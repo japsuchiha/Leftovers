@@ -89,22 +89,3 @@ export default class EnterCalorie extends Component{
     }
 }
 
-// {id: 763369, title: "Healthy Yummy Mexican Breakfast Bowls", readyInMinutes: 35, servings: 2, image: "healthy-yummy-mexican-breakfast-bowls-763369.jpg", …}
-// 1
-// :
-// {id: 801738, title: "Pear & Walnut Burger", readyInMinutes: 45, servings: 4, image: "pear-walnut-burger-801738.jpg", …}
-// 2
-// :
-// {id: 741233, title: "Eggplant Timballo with Cavatelli", readyInMinutes: 90, servings: 6, image: "eggplant-timballo-with-cavatelli-741233.jpeg", …}
-// length
-// :
-// 3
-// __proto__
-// :
-// Array(0)
-// nutrients
-// :
-// {calories: 2560.21, protein: 126.36, fat: 144.55, carbohydrates: 197.42}
-// __proto__
-// :
-// Object
